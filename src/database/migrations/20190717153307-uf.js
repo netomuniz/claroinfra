@@ -11,10 +11,6 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      nm_uf_responsavel: {
-        type: Sequelize.STRING,
-        allowNull: false
-      },
       status: {
         type: Sequelize.BOOLEAN,
         defaultValue: false,
